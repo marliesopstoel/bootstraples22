@@ -1,0 +1,62 @@
+/*** Algemeen ***/
+
+html, body, h1, h2 {
+    color: rgb(35, 35, 68);
+
+}
+.navbar {
+    background-color: rgb(35, 35, 68);
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    background-color: rgba(35, 35, 68, 0.342);
+    padding: 5px 10px;
+}
+
+h2:not(:first-of-type) {
+    margin-top: 30px;
+}
+footer {
+    text-align: center;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+footer p {
+    display: inline-flex;
+}
+
+/*** Home ***/
+
+.col {
+    padding: 0px;
+
+    @media only screen and (min-width: 768px) {
+        padding: 10px;
+    }
+}
+
+img {
+    height: 100%;
+    max-width: 100%;
+}
+
+/*** Over mij ***/
+
+/*** Contact ***/
+
+textarea.form-control {
+    min-height: 100px;
+}
